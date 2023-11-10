@@ -230,8 +230,6 @@ function SalarioHora(){
 }
 
 
-// Funcion para menor de tres numeros
-
 function NumeroMenor(){
 
     let a,b,c = 0;
