@@ -1,0 +1,50 @@
+/* Agregar tipografia */
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: url("../img/r2.jpg");
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+section{
+
+    width: 90%;
+    max-width: 1350px;
+    margin: 8% auto;
+    border: 1px solid #48ff00;
+    background: #0000005d;
+    text-align: center;
+    padding: 30px 30px 60px 30px;
+
+
+}
+
+h1{
+    color: white;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+p{
+    color: aqua;
+    font-size: 22px;
+}
+
+button{
+    background: transparent;
+    border: 2px solid aqua;
+    padding: 12px 30px;
+    margin: 10px;
+    color: white;
+
+}
+button:hover{
+    background: #000;
+    color: aqua;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    transition: 0.5s;
+}
